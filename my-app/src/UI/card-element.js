@@ -15,7 +15,7 @@ export default function CardElement(props){
 
                 </Select>
                 <TextField id="text" label="Value" onChange={props.resultValue} value={props.value}></TextField>
-                <Typography variant="caption">{(props.valueCoef !== 0) ? '1 ' + props.valueCharCode + ' = ' + props.valueCoef + ' RUB' : 'Input value'}</Typography>
+                <Typography variant="caption">{(props.valueCoef !== 0) ? '1 ' + props.valueCharCode + ' = ' + props.valueCoef + ' RUB' : 'Currency rate'}</Typography>
             </Stack>
         </Grid>
     )
